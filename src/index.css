@@ -90,7 +90,10 @@ section .box-container img {
 
 section .box-container p {
   width: 80%;
-  text-align: left;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  word-spacing: -0.05em;
 }
 
 section .box-container .random-price {

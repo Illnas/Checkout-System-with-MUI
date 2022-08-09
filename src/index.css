@@ -589,6 +589,74 @@ section.checkout-page {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
+
+  .checkout-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkout-container .cartItems {
+    width: 95%;
+    border-right: none;
+  }
+
+  .checkout-container form {
+    width: 95%;
+  }
+
+  .promo p {
+    font-size: 10px;
+    margin-left: 13px;
+  }
+
+  .checkout-container form .form-group {
+    width: 80%;
+  }
+
+  .checkout-container form .form-group .form-data {
+    margin-right: 2px;
+  }
+  
+  .checkout-container form .form-group .form-data input {
+    width: 100%;
+    margin-left: 5px;
+    background-color: rgb(236, 236, 236);
+  }
+
+  #ccn {
+    width: 95%;
+  }
+
+  .order-items .orders {
+    width: 95%;
+  }
+
+  .order-items .orders .order-list-items {
+    width: 95%;
+  }
+
+  .order-list-items h4{
+    font-size: 12px;
+    width: 10%;
+  }
+
+  .order-list-items p{
+    font-size: 10px;
+    width: 80%;
+
+  }
+
+  .order-list-items h3 {
+    font-size: 12px;
+    width: 10%;
+  }
+
+  .order-items .orders .order-list-items span.multiple {
+    padding: 2px;
+    border-right: 1px solid black;
+  } 
+
+  
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -614,6 +682,72 @@ section.checkout-page {
   main h2 {
     margin-top: 10px;
   }
+
+  .checkout-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkout-container .cartItems {
+    width: 95%;
+    border-right: none;
+  }
+
+  .checkout-container form {
+    width: 95%;
+  }
+
+  .promo p {
+    font-size: 10px;
+    margin-left: 13px;
+  }
+
+  .checkout-container form .form-group {
+    width: 80%;
+  }
+
+  .checkout-container form .form-group .form-data {
+    margin-right: 2px;
+  }
+  
+  .checkout-container form .form-group .form-data input {
+    width: 100%;
+    margin-left: 5px;
+    background-color: rgb(236, 236, 236);
+  }
+
+  #ccn {
+    width: 95%;
+  }
+
+  .order-items .orders {
+    width: 95%;
+  }
+
+  .order-items .orders .order-list-items {
+    width: 95%;
+  }
+
+  .order-list-items h4{
+    font-size: 14px;
+    width: 10%;
+  }
+
+  .order-list-items p{
+    font-size: 12px;
+    width: 80%;
+
+  }
+
+  .order-list-items h3 {
+    font-size: 14px;
+    width: 10%;
+  }
+
+  .order-items .orders .order-list-items span.multiple {
+    padding: 2px;
+    border-right: 1px solid black;
+  } 
 }
 
 /* Media Query for when ipads switch screens to left */
